@@ -192,7 +192,7 @@
                     <div class="account-wrap">
                       <div class="account-item clearfix js-item-menu">
                         <div class="content">
-                          <a class="js-acc-btn" href="#">john doe</a>
+                          <a class="js-acc-btn" href="#">{{session('email')}}</a>
                         </div>
                         <div class="account-dropdown js-dropdown">
                           <div class="info clearfix">
